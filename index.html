@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <title>Etch</title>
+        <link href="styles.css" rel="stylesheet">
+    </header>
+    <body>
+        <div class="buttons">
+            <button class="color-choice" data-color="black" type="button">Black</button>
+            <button class="color-choice" data-color="rainbow" type="button">Rainbow</button>
+            <button class="color-choice" data-color="grey" type="button">Grey</button>
+            <button class="color-choice" data-color="erase" type="button">Erase</button>
+            <button class="color-choice">Pick: <input type="color" value="#ff0000" id="input-color"></button>
+        </div>
+        <div class="container-wrapper">
+            <div class="container">
+            </div>
+        </div>
+        <div class="grid-options">
+            <button class="clear" type="button">Clear</button>
+            <div class="size-container">
+                <p id="pixel-size">Pixel Size 10</p>
+                <input type="range" min="4" max="100" value="15" id="sizerange" class="slider">
+            </div>
+        </div>
+
+    </body>
+    <script src="script.js"></script>
+</html>
